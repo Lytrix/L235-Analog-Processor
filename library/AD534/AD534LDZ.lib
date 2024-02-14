@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AD534LDZ
+#/168990/1195967/2.50/14/3/Integrated Circuit
+DEF AD534LDZ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "AD534LDZ" 950 200 50 H V L CNN
+F2 "CDIP775W58P254L1943H508Q14" 950 100 50 H I L CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD534.pdf" 950 0 50 H I L CNN
+F4 "AD534LDZ, Analogue Multipler & Divider 4-Bits 14-Pin SBCDIP" 950 -100 50 H I L CNN "Description"
+F5 "5.08" 950 -200 50 H I L CNN "Height"
+F6 "584-AD534LDZ" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD534LDZ?qs=NmRFExCfTkEiMWgKpoiYfQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AD534LDZ" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X X1 1 0 0 200 R 50 50 0 0 P
+X X2 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X SF 4 0 -300 200 R 50 50 0 0 P
+X NC_1 5 0 -400 200 R 50 50 0 0 P
+X Y1 6 0 -500 200 R 50 50 0 0 P
+X Y2 7 0 -600 200 R 50 50 0 0 P
+X +VS 14 1100 0 200 L 50 50 0 0 W
+X NC_3 13 1100 -100 200 L 50 50 0 0 P
+X OUT 12 1100 -200 200 L 50 50 0 0 O
+X Z1 11 1100 -300 200 L 50 50 0 0 P
+X Z2 10 1100 -400 200 L 50 50 0 0 P
+X NC_2 9 1100 -500 200 L 50 50 0 0 P
+X -VS 8 1100 -600 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 900 100 900 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

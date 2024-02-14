@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD534LDZ
+D AD534LDZ, Analogue Multipler & Divider 4-Bits 14-Pin SBCDIP
+K
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD534.pdf
+$ENDCMP
+#
+#End Doc Library
