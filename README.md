@@ -19,7 +19,7 @@ I also incorporated his suggestion of changing the filter to a continous potenti
 #### 2. Normalized Patch points before and after each circuit #### 
 I wanted to include as many patch points as possible to have a plethora of normalised extra in/outputs on each of the different circuit blocks which are already in the SR-235. Thaty way it can be used as an ARP2600/MS-20 type of pre-routed unit and be able to use a single part of the chain if needed.
 
-#### 4. Bi Polar Half Wave rectification ####
+#### 3. Bi Polar Half Wave rectification ####
 Beside the existing circuits already in the module like full wave rectification, a bi polar half wave option to switch to is also added.
 I took inspiration of these nice utility modules where for example the CFM can be utilised to add to separate positive and negative half waves to create new waveshapes easily:
 - [Mutable Kinks](https://pichenettes.github.io/mutable-instruments-documentation/modules/kinks/) Signal prep: Invert/Half Wave/Full Wave
@@ -27,10 +27,10 @@ I took inspiration of these nice utility modules where for example the CFM can b
 
 To be able to combine new rectified waveshapes I decided to add switches for inversion and positive/negative half wave rectification so the main signal chain can easily be changed.
 
-#### 3. Inverse waveform circuit #### 
+#### 4. Inverse waveform circuit #### 
 I've also added a separate circuit with dedicated in/outputs to be able to inverse the waveform so you have more options to prepare the waveform before going into the functions or use it as a separate circuit.
 
-#### Switch for ADD/Subtract function #### 
+#### 5. Switch for ADD/Subtract function #### 
 To be able to also combine two half waves, I added also an Add/Subtract switch for the A - B Argument.
 
 
