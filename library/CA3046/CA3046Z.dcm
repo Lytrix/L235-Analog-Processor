@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CA3046Z
+D Bipolar Transistors - BJT
+K
+F https://www.renesas.com/in/en/document/psc/e143-14-lead-dual-line-plastic-packages
+$ENDCMP
+#
+#End Doc Library

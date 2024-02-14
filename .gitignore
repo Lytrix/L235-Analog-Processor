@@ -1,0 +1,6 @@
+.DS_Store
+*.bak
+fp-info-cache
+\#auto_saved_files\#
+_autosave*
+*-backups
