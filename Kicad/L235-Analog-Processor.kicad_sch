@@ -6183,7 +6183,7 @@
   (symbol (lib_id "Amplifier_Operational:TL082") (at 287.02 365.76 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10be151a-5aa5-4e58-b70a-0e72fb2ba7be)
-    (property "Reference" "U16" (at 287.02 360.68 0)
+    (property "Reference" "U17" (at 287.02 360.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL082" (at 286.385 365.76 0)
@@ -6206,7 +6206,7 @@
     (instances
       (project "L235-Analog-Processor"
         (path "/11565f7a-671a-4a91-8d3b-c6d6401f938b"
-          (reference "U16") (unit 3)
+          (reference "U17") (unit 3)
         )
       )
     )
@@ -6924,7 +6924,7 @@
   (symbol (lib_id "Amplifier_Operational:TL082") (at 73.66 322.58 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 297d242a-ba3e-4b73-aacc-66f8231a0ffc)
-    (property "Reference" "U16" (at 73.66 327.66 0)
+    (property "Reference" "U17" (at 73.66 327.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL082" (at 72.39 322.58 0)
@@ -6947,7 +6947,7 @@
     (instances
       (project "L235-Analog-Processor"
         (path "/11565f7a-671a-4a91-8d3b-c6d6401f938b"
-          (reference "U16") (unit 2)
+          (reference "U17") (unit 2)
         )
       )
     )
@@ -12399,7 +12399,7 @@
   (symbol (lib_id "Amplifier_Operational:TL082") (at 82.55 201.295 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adf40498-6c9b-4168-b305-5f3fe919ae2d)
-    (property "Reference" "U16" (at 82.55 206.375 0)
+    (property "Reference" "U17" (at 82.55 206.375 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL082" (at 81.28 201.295 0)
@@ -12422,7 +12422,7 @@
     (instances
       (project "L235-Analog-Processor"
         (path "/11565f7a-671a-4a91-8d3b-c6d6401f938b"
-          (reference "U16") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
