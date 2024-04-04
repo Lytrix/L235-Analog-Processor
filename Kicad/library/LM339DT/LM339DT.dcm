@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM339DT
+D Comparator Quad +/-16/32V SOIC14 STMicroelectronics LM339DT Quad Comparator, CMOS/TTL O/P, 1.3us +2  +36 V 14-Pin SOIC
+K
+F https://componentsearchengine.com//LM339DT.pdf
+$ENDCMP
+#
+#End Doc Library
