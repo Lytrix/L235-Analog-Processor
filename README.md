@@ -10,6 +10,11 @@ I found the schematics of the SR-235 with courtesy of Stanford Research Systems:
 https://www.thinksrs.com/downloads/pdfs/manuals/Boxcarm.pdf
 
 
+### Main principe ###
+
+The analog processor uses a 4 deck rotary switch to change the algorith and function. This creates different inputs paths to each IC or opamp circuitry to change the way the voltages are handled. One of the IC's is a precision multipier, the AD534. It can be bought second hand for 10 euros, but newer versions go for a whopping 200 euros. Luckily there is a cheaper version available as SMD version which is also 10 euros. By adding an extra opamp to the Z input, you basically have the same circuit. 
+
+
 ### Added functionalities ###
 
 #### 1. Continuous Argument Filter X with reduced range ####
@@ -33,6 +38,9 @@ I've also added a separate circuit with dedicated in/outputs to be able to inver
 #### 5. Switch for ADD/Subtract function #### 
 To be able to also combine two half waves, I added also an Add/Subtract switch for the A - B Argument.
 
+#### 6. CV control over the selected Argument and Function
+A eurorack conversion wouldn't be complete with complete CV control over everything. Therefore I've added CV control to select different circuits via a multiplexer and using a 3-bit Flash ADC to have proper audio rate speed (hopefully!)
+- [3-bit Flash ADC test](https://tinyurl.com/2b6dmdgn)
 
 ### Schematic overview of functions with in/outputs ###
 ![Image](Images/SR-235-Additions.png)
