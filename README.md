@@ -12,8 +12,8 @@ https://www.thinksrs.com/downloads/pdfs/manuals/Boxcarm.pdf
 
 ### Main principe ###
 
-The analog processor uses a 4 deck rotary switch to change the algorith and function. This creates different inputs paths to each IC or opamp circuitry to change the way the voltages are handled. One of the IC's is a precision multipier, the AD534. It can be bought second hand for 10 euros, but newer versions go for a whopping 200 euros. Luckily there is a cheaper version available as SMD version which is also 10 euros. By adding an extra opamp to the Z input, you basically have the same circuit. 
-
+The analog processor uses a 4 deck rotary switch to change the algorith and function. This creates different inputs paths to each IC or opamp circuitry to change the way the voltages are handled. One of the IC's is a precision multipier, the AD534. It can be bought second hand for 10 euros, but newer versions go for a whopping 200 euros. Luckily there is a cheaper version available as SMD version (AD633) which is also 10 euros. By adding an extra opamp to the Z input, you basically have the same circuit. 
+The A and B inputs are full wave rectified. This is a falstad testing the out the first circuit path: [Full wave rectification test setup](https://tinyurl.com/27wkvqkx)
 
 ### Added functionalities ###
 
