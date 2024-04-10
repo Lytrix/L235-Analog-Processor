@@ -42,5 +42,12 @@ To be able to also combine two half waves, I added also an Add/Subtract switch f
 A eurorack conversion wouldn't be complete with complete CV control over everything. Therefore I've added CV control to select different circuits via a multiplexer and using a 3-bit Flash ADC to have proper audio rate speed (hopefully!)
 - [3-bit Flash ADC test](https://tinyurl.com/2b6dmdgn)
 
+
+#### 7. CV control over the Argument Filter ####
+To control the filter a Variable Resistor Ciruit is needed to change the resistance from 0-500k:
+https://www.edn.com/a-guide-to-using-fets-for-voltage-controlled-circuits-part-1
+and
+https://www.ednasia.com/A-guide-to-using-FETs-for-voltage-controlled-circuits--Part-2/
+
 ### Schematic overview of functions with in/outputs ###
 ![Image](Images/SR-235-Additions.png)

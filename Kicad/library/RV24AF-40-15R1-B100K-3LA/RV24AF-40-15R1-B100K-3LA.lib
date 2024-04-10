@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RV24AF-40-15R1-B100K-3LA
+#/824336/1195967/2.50/3/4/Variable Resistor
+DEF RV24AF-40-15R1-B100K-3LA VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "RV24AF-40-15R1-B100K-3LA" 950 200 50 H V L CNN
+F2 "RV24AF4015R1B1M3LA" 950 100 50 H I L CNN
+F3 "https://www.mouser.co.uk/datasheet/2/13/RV24AF-1658492.pdf" 950 0 50 H I L CNN
+F4 "Potentiometers Linear 100K Vert Angle PC Mount" 950 -100 50 H I L CNN "Description"
+F5 "26.5" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "Mouser2 Part Number"
+F7 "" 950 -400 50 H I L CNN "Mouser2 Price/Stock"
+F8 "Alpha (Taiwan)" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RV24AF-40-15R1-B100K-3LA" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 1100 0 200 L 50 50 0 0 P
+X WIPER 2 0 0 200 R 50 50 0 0 P
+X CW 3 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
