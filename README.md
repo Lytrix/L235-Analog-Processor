@@ -44,10 +44,13 @@ A eurorack conversion wouldn't be complete with complete CV control over everyth
 
 
 #### 7. CV control over the Argument Filter ####
-To control the filter a Variable Resistor Ciruit is needed to change the resistance from 0-500k:
+To control the filter a Variable Resistor Ciruit is needed to change the resistance from 0-500k using a BF245 or J112:
 https://www.edn.com/a-guide-to-using-fets-for-voltage-controlled-circuits-part-1
 and
 https://www.ednasia.com/A-guide-to-using-FETs-for-voltage-controlled-circuits--Part-2/
+
+https://i.stack.imgur.com/XX1wH.png
+
 
 ### Schematic overview of functions with in/outputs ###
 ![Image](Images/SR-235-Additions.png)
