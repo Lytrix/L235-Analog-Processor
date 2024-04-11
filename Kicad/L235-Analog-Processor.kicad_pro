@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|315165001|13700001|2ccc7efd-d630-474e-a843-85e30695aa1e|69adc768-6e03-4e0a-88b7-c85f11b52603",
+        "courtyards_overlap|322067501|13700001|01d0a63b-a4ad-4716-992d-f99a83ff2231|69adc768-6e03-4e0a-88b7-c85f11b52603",
+        "invalid_outline|357500000|110000000|c9fa5ead-65cf-4bc3-a0af-01a6392d674a|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -113,11 +117,11 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.6,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_hole_to_hole": 0.5,
+        "min_microvia_diameter": 0.5,
+        "min_microvia_drill": 0.3,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
@@ -392,7 +396,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -420,7 +424,7 @@
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.5,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
