@@ -1,7 +1,7 @@
 # L-235 Analog Processor ##
 
 ### Introduction ###
-I was interested in the SR-235 as being the equivalent mathematical processor but then in Analog form which I saw in action on Hainbach's channel using this test equipment here: https://www.youtube.com/watch?v=PS_cn9-rgEs 
+I was interested in the [SR-235](https://www.thinksrs.com/images/instr/boxcar/SR235_FPlg.jpg) as being the equivalent mathematical processor but then in Analog form which I saw in action on Hainbach's channel using this test equipment here: https://www.youtube.com/watch?v=PS_cn9-rgEs 
 Also coming from a digital synthesis world using a Kurzweil K2000R Synthesizer years ago which has an awesome VAST engine with mathematical functions called FUN to combine 2 signals and apply mathematical functions on it, I still was searching for an equivalent module in eurorack but did not find any yet.
 
 So I decided to give it a go and build a eurorack DIY version of this module to have these interesting functions available for waveform manipulation in eurorack.
