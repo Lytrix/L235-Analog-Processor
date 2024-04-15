@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD4051BPWR
+D CMOS single 8-channel analog multiplexer & demultiplexer with logic-level conversion
+K
+F http://www.ti.com/lit/gpn/cd4051b
+$ENDCMP
+#
+#End Doc Library
