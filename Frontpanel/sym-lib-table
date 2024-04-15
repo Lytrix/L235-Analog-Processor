@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AD534LDZ")(type "KiCad")(uri "${KIPRJMOD}/library/AD534/AD534LDZ.kicad_sym")(options "")(descr ""))
+  (lib (name "CA3046Z")(type "KiCad")(uri "${KIPRJMOD}/library/CA3046/CA3046Z.kicad_sym")(options "")(descr ""))
+  (lib (name "71BF30-02-2-06N")(type "KiCad")(uri "${KIPRJMOD}/library/71BF30-02-2-06N/71BF30-02-2-06N.kicad_sym")(options "")(descr ""))
+)
