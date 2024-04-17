@@ -44,6 +44,9 @@ A eurorack conversion wouldn't be complete with complete CV control over everyth
 
 
 #### 7. CV control over the Argument Filter ####
+The Argument Filter is upgraded to a full integrator as was used on the System 700 of Roland.
+http://yusynth.net/gear/ROLAND/R700-schematics/707-INSTR-INTERF.pdf
+
 To control the filter a Variable Resistor Ciruit is needed to change the resistance from 0-500k using a BF245 or J112:
 https://www.edn.com/a-guide-to-using-fets-for-voltage-controlled-circuits-part-1
 and
