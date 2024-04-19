@@ -17,14 +17,25 @@ The A and B inputs are full wave rectified. This is a falstad testing the out th
 
 ### Added functionalities ###
 
-#### 1. Continuous Argument Filter X with reduced range ####
+#### 1. Attenuverter with -10/+10V Offset 
+https://tinyurl.com/2bf2wpb8
+Based on 2 schematics found to build a good setup for input prepping, similar like the awesome [Olivella Modular Signos](https://www.olivellamodular.com/signos.html).
+
+Precision Attenuverter:
+https://kassu2000.blogspot.com/2018/04/precision-attenuverter-mixer.html
+
+Added Offset:
+https://modwiggler.com/forum/viewtopic.php?t=103687
+
+
+#### 2. Continuous Argument Filter X with reduced range ####
 I reached out to Hainbach who was willing to share some photographs on the internals so I could look for the same brand of components.
 I also incorporated his suggestion of changing the filter to a continous potentiometer and limit it to the first 3 steps (0-1M Ohms) to keep it in the audible range.
 
-#### 2. Normalized Patch points before and after each circuit #### 
+#### 3. Normalized Patch points before and after each circuit #### 
 I wanted to include as many patch points as possible to have a plethora of normalised extra in/outputs on each of the different circuit blocks which are already in the SR-235. Thaty way it can be used as an ARP2600/MS-20 type of pre-routed unit and be able to use a single part of the chain if needed.
 
-#### 3. Bi Polar Half Wave rectification ####
+#### 4. Bi Polar Half Wave rectification ####
 Beside the existing circuits already in the module like full wave rectification, a bi polar half wave option to switch to is also added.
 I took inspiration of these nice utility modules where for example the CFM can be utilised to add to separate positive and negative half waves to create new waveshapes easily:
 - [Mutable Kinks](https://pichenettes.github.io/mutable-instruments-documentation/modules/kinks/) Signal prep: Invert/Half Wave/Full Wave
@@ -32,25 +43,18 @@ I took inspiration of these nice utility modules where for example the CFM can b
 
 To be able to combine new rectified waveshapes I decided to add switches for inversion and positive/negative half wave rectification so the main signal chain can easily be changed.
 
-#### 4. Inverse waveform circuit #### 
-I've also added a separate circuit with dedicated in/outputs to be able to inverse the waveform so you have more options to prepare the waveform before going into the functions or use it as a separate circuit.
-
-#### 5. Switch for ADD/Subtract function #### 
-To be able to also combine two half waves, I added also an Add/Subtract switch for the A - B Argument.
-
-#### 6. CV control over the selected Argument and Function
+#### 5. CV control over the selected Argument and Function
 A eurorack conversion wouldn't be complete with complete CV control over everything. Therefore I've added CV control to select different circuits via a multiplexer and using a 3-bit Flash ADC to have proper audio rate speed (hopefully!)
 - [3-bit Flash ADC test](https://tinyurl.com/2b6dmdgn)
 
-
-#### 7. CV control over the Argument Filter ####
+#### 6. CV control over the Argument Filter ####
 The Argument Filter is upgraded to a full integrator as was used on the System 700 of Roland.
 http://yusynth.net/gear/ROLAND/R700-schematics/707-INSTR-INTERF.pdf
 
 To control the filter a Variable Resistor Ciruit is needed to change the resistance from 0-500k using a BF245 or J112:
 https://www.edn.com/a-guide-to-using-fets-for-voltage-controlled-circuits-part-1
 and
-https://www.ednasia.com/A-guide-to-using-FETs-for-voltage-controlled-circuits--Part-2/
+https://www.ednasia.com/A-guide-to-using-FETs-for-voltage-controlled-circuits--Part-2/ 
 
 https://i.stack.imgur.com/XX1wH.png
 
