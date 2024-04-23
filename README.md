@@ -27,6 +27,17 @@ https://kassu2000.blogspot.com/2018/04/precision-attenuverter-mixer.html
 Added Offset:
 https://modwiggler.com/forum/viewtopic.php?t=103687
 
+#### 1b. VCA CV controlled ####
+[Moritz Klein Transistor VCA example](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEAmAzNALAdkggnMmAGxFYKSpKkhIao0CmAtGGAFAAu4yAHOBhnBYi-QZHAgm6YWErIE+IpGQY8RMdATIixMBj1xUyLPTBwQAEwYAzAIYBXADYdOKHnz2CV4z1AlToIjxyIh5IMGMcSB0kGC0eUKxkXnxcLCxBM3ErOycXACchEQwPYUkjPyz4NkLvEBKUDHEpZEr4ODYAJRRIPiZ1Hr7WVvFxJu4-Uc02AHdByQHkXvKR2fmWopWoNaW+irqNyC76jwEt33F6JfFYyem5sDKGx5Ew7Yeyt5fuPiO5uoadQivzYthAqFCIAGGAGAzwExYrSq8HBgTAPFYJgxqDw6SS9HQOjCPAyyDwj2iPAQWHA7SOhVQkEEDQhfAaPnaNXBTJAb1ZvNGtOqAHNwZCNvz+mJ3mK+HzIcCZTDMrx6rCxKDwMViFqxjqPK1EUL2lBYPAwLi8LigqgjIlVRzOYUdU1mg1XX5rtUHsVzDq5NtnSIA8RLlo-LbvbrweHQ-UdUcAPI0VWwlRQ6VHbouiougaC8aCqYINbfONlggyiutXbgSv0k6iH5Nx3VZ2q3yK2uOtiirvLLvp0Zc-mK5XNsZRDoM8UVfns+pTo4AD3qkj0tB064wrUEEJAAGUAJIAWQACgAZACiAB0AM4AFU6AEEAHLHg8PxOde8ANQAws+bCriwkDwhC8JMGUqBJGu6b-r+wGSJW5IoEgeDMo0h5HgA4q+z4XveR6vjsyz6CIcbkYG8wWjWZEJsaRyirwpxeO4mzDv84xxkC9ZrIyzJ8ACIJzAJAqbG8RyPIa7rmEwaj1OY4g0hEExFpoIC-gA9s4tjCgwpEeJWvGrIU44DPEGZtB0WkoPQvzcGSNzQHgYSuTiEJgWSdCmualRsEAA)
+
+[electronic druid LM13700 example](https://electricdruid.net/wp-content/uploads/2020/04/EurorackVintageVCA-scaled.jpg)
+
+[DIY VCA with transistors](https://sound-au.com/project213.htm)
+
+Nice payed version: https://modulargrid.net/e/teia-mapvolt
+
+AD633 example
+https://modulargrid.net/e/seismic-industries-polarizer
 
 #### 2. Continuous Argument Filter X with reduced range ####
 I reached out to Hainbach who was willing to share some photographs on the internals so I could look for the same brand of components.
@@ -58,6 +69,11 @@ https://www.ednasia.com/A-guide-to-using-FETs-for-voltage-controlled-circuits--P
 
 https://i.stack.imgur.com/XX1wH.png
 
+
+#### 7. Additional processing types with AD633 ####
+https://www.eddybergman.com/2023/06/AD633ringmodulator.html
+
+http://seismic.industries/wp-content/uploads/2017/08/DIY_Workshop_POLARIZER_Documentation.pdf
 
 ### Schematic overview of functions with in/outputs ###
 ![Image](Images/SR-235-Additions.png)
