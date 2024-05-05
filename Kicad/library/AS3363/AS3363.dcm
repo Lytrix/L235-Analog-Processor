@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS3363
+D Three Channel VCA (voltage polarizer)
+K
+F http://www.alfarzpp.lv/eng/sc/AS3363.pdf
+$ENDCMP
+#
+#End Doc Library

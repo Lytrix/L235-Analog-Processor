@@ -18,7 +18,11 @@ The A and B inputs are full wave rectified. This is a falstad testing the out th
 ### Added functionalities ###
 
 #### 1. Attenuverter with -10/+10V Offset 
-https://tinyurl.com/2bf2wpb8
+
+Attenuverter + Offset with 2x Gain
+https://therepaircafe.wordpress.com/2021/04/04/attenuverter-with-gain-and-offset/
+
+https://tinyurl.com/2bdyzzdu
 Based on 2 schematics found to build a good setup for input prepping, similar like the awesome [Olivella Modular Signos](https://www.olivellamodular.com/signos.html).
 
 Precision Attenuverter:
@@ -38,6 +42,12 @@ Nice payed version: https://modulargrid.net/e/teia-mapvolt
 
 AD633 example
 https://modulargrid.net/e/seismic-industries-polarizer
+
+LM13700 example
+https://www.haraldswerk.de/VCA/Quad_VCA/Quad_VCA.html
+
+AS3363 example
+
 
 #### 2. Continuous Argument Filter X with reduced range ####
 I reached out to Hainbach who was willing to share some photographs on the internals so I could look for the same brand of components.
@@ -71,9 +81,43 @@ https://i.stack.imgur.com/XX1wH.png
 
 
 #### 7. Additional processing types with AD633 ####
+
+
 https://www.eddybergman.com/2023/06/AD633ringmodulator.html
 
 http://seismic.industries/wp-content/uploads/2017/08/DIY_Workshop_POLARIZER_Documentation.pdf
+
+1. Frequency Doubler (=Voltage Squarer) (Normalize output A to B to accompish this)
+2. Waveshaper (=Voltage Divider A/10*B) W output to negative input opamp to Y1. Output opamp is output. 
+4. Square rooter
+5. Phase angle detector
+6. Rectifier (already have circuits for)
+7. VCA 
+8. Variable Resistor
+10. Ring/AM Modulator (=Multiplier) ([example1](https://musicfromouterspace.com/analogsynth_new/THE_CAVE/Ring%20Mod%20Old%20Design%20I/RingModulator.htm), [example2](https://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1352&VPH=697))
+
+Great single unit with attenuators:
+http://macumbista.net/?p=1314
+
+More in depth:
+https://web.archive.org/web/20070123153159/http://www.sowa.synth.net/modular/rm.html
+with [schematic](https://web.archive.org/web/20070121113438/http://www.sowa.synth.net/modular/m_rm.gif)
+And this example has some GREAT audio examples! Especially the divide creates really nice distortion!:
+http://m.bareille.free.fr/modular1/warp633/warp633.htm
+
+And another RM example
+https://gitlab.com/rsholmes/ringer
+
+Nice 3hp example:
+https://recklessexperimentationaudio.com/products/algebra-lite
+
+Frequency Doubling : Can be done with Waveshaper + gain.
+
+Wavefolder/Ring Mod example:
+https://note.com/solder_state/n/n9d138d74b39d
+
+AD633 examples
+https://www.youtube.com/watch?v=m6MqNZ7H99w
 
 ### Schematic overview of functions with in/outputs ###
 ![Image](Images/SR-235-Additions.png)
